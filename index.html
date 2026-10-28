@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Card Games</title>
+<style>
+:root{--ink:#1a1a1a;--muted:#555;--rule:#c9c2b4;--accent:#8a1f1f;--cream:#faf8f4}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--cream);color:var(--ink);font-family:'Times New Roman',Georgia,serif;line-height:1.7;padding:0 1.25rem}
+.page{max-width:720px;margin:3rem auto}
+h1{font-size:2.4rem;letter-spacing:.02em;border-bottom:1.5px solid var(--rule);padding-bottom:1rem;margin-bottom:1.5rem}
+p.lead{font-size:1.2rem;color:var(--muted);margin-bottom:2rem}
+a.game{display:block;text-decoration:none;color:inherit;border-bottom:.5px solid var(--rule);padding:1rem 0}
+a.game:hover .name{color:var(--accent)}
+.name{font-size:1.35rem;font-weight:700}
+.desc{font-size:1.12rem;color:var(--muted)}
+footer{margin-top:2.5rem;padding-top:1rem;border-top:1.5px solid var(--rule);font-size:1.05rem;color:var(--muted);font-style:italic}
+</style></head><body><div class="page">
+<h1>Card Games</h1>
+<p class="lead">Vanilla HTML, CSS and JavaScript. No build step, no dependencies, no framework. Open a file and play.</p>
+<a class="game" href="five-column-poker.html"><div class="name">Five-Column Chinese Poker</div><div class="desc">1-swap variant. Hand evaluation, scoring across five columns.</div></a>
+<a class="game" href="holdem-scratch.html"><div class="name">Hold'em Hotstreak</div><div class="desc">Scratch and match, Texas Hold'em themed. First build.</div></a>
+<a class="game" href="holdem-scratch-B.html"><div class="name">Hold'em Hotstreak v2</div><div class="desc">Second build of the same game.</div></a>
+<footer>Vanilla JavaScript, written as a study in hand evaluation and game state.</footer>
+</div></body></html>
